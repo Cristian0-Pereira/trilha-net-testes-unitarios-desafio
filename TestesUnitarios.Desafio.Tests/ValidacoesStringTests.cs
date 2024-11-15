@@ -4,7 +4,7 @@ namespace TestesUnitarios.Desafio.Tests;
 
 public class ValidacoesStringTests
 {
-    private ValidacoesString _validacoes = new ValidacoesString();
+    private ValidacoesString _validacoes = new();
 
     [Fact]
     public void DeveRetornar6QuantidadeCaracteresDaPalavraMatrix()

@@ -4,7 +4,7 @@ namespace TestesUnitarios.Desafio.Tests;
 
 public class ValidacoesListaTests
 {
-    private ValidacoesLista _validacoes = new ValidacoesLista();
+    private ValidacoesLista _validacoes = new();
 
     [Fact]
     public void DeveRemoverNumerosNegativosDeUmaLista()
